@@ -1,7 +1,7 @@
 # todo-app-react
 ![screencap_final](https://github.com/andrewmartinn/todo-app-react/assets/152824513/f187ab0d-6ec0-4f00-a8cd-063ead125067)
 
-Todo app built using React functionalities include adding, deleting and updating the status of a todo.
+Todo app built using React functionalities include adding, deleting and updating the status of a todo. Utilized JSON Server to simulate a mock backend to for api requests
 
 # Dependencies
 
