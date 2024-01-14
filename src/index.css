@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+  background: #f4f4f4;
+}
+
+.App{
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 1rem;
+}
+
+.app-title{
+  text-align: center;
+  color: #333;
+}
+
+.add-todo-form{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+.add-todo-form .form-control input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.add-todo-form .btn{
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 5px;
+  background: #3F51B5;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.add-todo-form .btn:hover{
+  opacity: 0.9;
+}
+
+.todo-list{
+  margin-top: 3rem;
+}
+
+.todo{
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.todo.priority{
+  border-left: 5px solid #cb5b73;
+}
+
+.todo h4{
+  color: #333;
+}
+
+

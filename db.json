@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "c5f2",
+      "text": "workout",
+      "priority": false
+    },
+    {
+      "id": "fcbf",
+      "text": "play guitar",
+      "priority": false
+    },
+    {
+      "id": "0d4f",
+      "text": "read a book",
+      "priority": false
+    }
+  ]
+}
